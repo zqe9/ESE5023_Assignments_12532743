@@ -1,0 +1,10 @@
+批改人：胡蓓慧
+学生：张秋娥（12532743）
+得分：（46/50）
+扣分点：
+1.3 Apply CountEq_LargestEq to every country in the file, report your results in a descending order（-2分）.
+2. 缺少单位转换，风速数值除以10才能转换为 m/s，y坐标轴没有写坐标（-1分）没有正确去除错误值导致结果错误（-1分）
+在文件里加上了修改后正确的代码。源代码错误处：“fin_data = data.loc[(data['Speed'] != 9999) & (data['Speed_quality'] != 3) & (data['Speed_quality'] != 7)]
+fin_data”，先将data的值改为数值，再去除9999的数据，才能成功。
+3.2 y轴建议添加坐标，不扣分
+
